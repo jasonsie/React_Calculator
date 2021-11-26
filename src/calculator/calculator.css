@@ -1,0 +1,68 @@
+.calCon {
+    padding: 0;
+    width: 320px;
+    height: 520px;
+}
+
+.sumCon{
+    padding: 0 10px 0 0;
+    margin: 0;
+    height: 80px;
+    background-color: rgb(59, 57, 55);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.cal{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+
+.keyCon {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.key{
+    padding: 0;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #e0e0e7;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+
+.key:active{
+    color: whitesmoke;
+    transition: ease-in-out;
+}
+
+.key-right{
+    padding: 0px;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: rgb(248, 135, 29);
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+
+.key-right:active{
+    color: black;
+    transition: ease-in-out;
+}
+
+.zero{
+    flex-grow: 2;
+}
