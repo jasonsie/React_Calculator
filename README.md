@@ -1,9 +1,11 @@
-<<<<<<< Updated upstream
-# React Calculator
+# React-Practice
+<img width="631" alt="Screen Shot 2021-09-12 at 12 52 20 AM" src="./public/images/1.png">
+This is a small practice for react
 
-## Using
+## Live Demo
+https://happy-stonebraker-b421c9.netlify.app/
 
-=======
->>>>>>> Stashed changes
-
+##  Skills 
+### * useState()
+### * useRef()
 
